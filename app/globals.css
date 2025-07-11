@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .transition-bg {
+    @apply transition-colors duration-150 ease-out;
+  }
+}
